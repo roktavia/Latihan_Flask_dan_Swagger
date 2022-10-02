@@ -1,0 +1,17 @@
+tags:
+  - name: ['lang']
+delete:
+  description: deleting language in list
+parameters:
+  - name: name
+    in: path
+    required: true
+    method: 'DELETE'
+    type: string
+responses:
+    '200':
+      description: Successful response
+    '400':
+      description: Bad Request
+    '500':
+      description: Internal Server Error

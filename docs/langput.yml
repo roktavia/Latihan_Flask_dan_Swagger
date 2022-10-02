@@ -1,0 +1,17 @@
+tags:
+  - name: ['lang']
+put:
+  description: revised language name in list
+parameters:
+  - name: name
+    in: path
+    required: true
+    method: 'PUT'
+    type: string
+responses:
+    '200':
+      description: Successful response
+    '400':
+      description: Bad Request
+    '500':
+      description: Internal Server Error
